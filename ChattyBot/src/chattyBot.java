@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class chattyBot {
 
-	final static Scanner scanner = new Scanner(System.in); // Do not change this line
+	final static Scanner scanner = new Scanner(System.in); 
 
     public static void main(String[] args) {
         greet("Carlos", "2020"); // change it as you need
@@ -59,6 +59,6 @@ public class chattyBot {
     }
 
     static void end() {
-        System.out.println("Congratulations, have a nice day!"); // Do not change this text
+        System.out.println("Congratulations, have a nice day!"); 
     }
 }
