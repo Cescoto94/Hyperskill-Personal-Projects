@@ -16,17 +16,17 @@ public class chattyBot {
     static void greet(String assistantName, String birthYear) {
         System.out.println("Hello! My name is " + assistantName + ".");
         System.out.println("I was created in " + birthYear + ".");
-        System.out.println("Please, remind me your name.");
+        System.out.println("Please, remind me of your name.");
     }
 
     static void remindName() {
         String name = scanner.nextLine();
-        System.out.println("What a great name you have, " + name + "!");
+        System.out.println("What a great name, " + name + "!");
     }
 
     static void guessAge() {
         System.out.println("Let me guess your age.");
-        System.out.println("Say me remainders of dividing your age by 3, 5 and 7.");
+        System.out.println("What are the remainders of dividing your age by 3, 5 and 7.");
         int rem3 = scanner.nextInt();
         int rem5 = scanner.nextInt();
         int rem7 = scanner.nextInt();
